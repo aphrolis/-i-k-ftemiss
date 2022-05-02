@@ -1,0 +1,43 @@
+
+.topnav {
+    background-color: orange;
+    overflow: hidden;
+}
+body {
+    background-color: gold;
+}
+.topnav a {
+    float: left;
+    color: crimson;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.images input {
+    display: none;
+}
